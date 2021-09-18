@@ -16,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Carattere&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Image to Text</title>
 </head>
@@ -26,7 +29,7 @@
         <h1>ImText</h1>
     </div>
 
-    <div id="seperate"></div>
+    <div style="height: 7vh"></div>
     <div>
         <h2 id="quote">
             "A picture is worth a thousand words"
@@ -34,23 +37,35 @@
     </div>
     <form id="picURL" action="">
         <!--<label for="urlInput">Enter the URL of your image here: </label>-->
-        <input id="urlInput" type="text" placeholder="Enter Image URL" name="query">
+        <input id="urlInput" type="text" placeholder="Enter Image URL" name="query" class="form-control"
+            placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
         <button type="submit" class="btn btn-success btn-lg">Submit</button>
     </form>
 
-    <div style="height: 15vh"></div>
+    <h2 id="description">
+        ImText will take the image URL of any online image and extract and display the text from the image.
+        English or FR for French.
+    </h2>
+    <h2 id="description">
+        Along with
+        the text being displayed, the language of the text will also be shown in an abbreviated version. For example, EN
+        for
+        English or FR for French.
+    </h2>
+
+    <div style="height: 10vh"></div>
     <h3 id="textLabel"><b>Text:</b></h3>
     <div id="seperate"></div>
 
-    <p id="returnText"></p>
+    <p id="returnText">Please enter an image URL</p>
 
     <div id="seperate"></div>
     <h3 id="languageLabel"><b>Language:</b></h3>
     <div id="seperate"></div>
 
-    <p id="returnLanguage"></p>
+    <p id="returnLanguage">Please enter an image URL</p>
 
-
+    <div style="height: 10vh"></div>
 
     <script src="script.js"></script>
 </body>

@@ -13,6 +13,7 @@
 }
 
 h1{
+    font-family: 'Montserrat', sans-serif;
     color:rgb(25, 11, 39);
     background-color:rgb(191,162,219);
     text-align: right;
@@ -31,6 +32,8 @@ h1{
     border: 0px;
     padding: 0px;
     padding-left: 15vw;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #seperate{
@@ -42,11 +45,21 @@ h1{
 
 #quote{
     font-family: 'Carattere', cursive;
-    font-size: 25px;
+    font-size: 2.8vh;
     text-align: center;
     margin: 0px;
     border: 0px;
     padding: 0px;
+}
+
+#description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3vh;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    padding-top: 1.5vh;
 }
 
 
@@ -56,7 +69,8 @@ form{
     justify-content: center;
     align-items: center;
     height: 10vh;
-    padding-top: 10vh;
+    padding-top: 7vh;
+    padding-bottom: 9vh;
 }
 
 input{
@@ -65,9 +79,7 @@ input{
     height: 5vh;
     justify-content: center;
     align-items: center;
-    border-width: 1vh;
-    border-color: rgb(25, 11, 39);
-    border-radius: 2vh;
+    max-width: 40vw;
 }
 
 button{
@@ -102,4 +114,5 @@ img{
     border: 0px;
     padding: 0px;
     padding-left: 10vw;
+    font-family: 'Montserrat', sans-serif;
 }
