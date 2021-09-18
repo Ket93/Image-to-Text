@@ -1,4 +1,4 @@
-const form = document.querySelector("#imageURL");
+const form = document.querySelector("#picURL");
 
 let myHeaders = new Headers();
 myHeaders.append("apikey", "FD00cuR4jklrGZnhXOHcn4GDFBlkhcJ9");
