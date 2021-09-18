@@ -8,16 +8,20 @@
     background-color: rgb(244, 234, 250);
 }
 
+.titleBar{
+    background-color:rgb(191,162,219);
+}
+
 h1{
     color:rgb(25, 11, 39);
     background-color:rgb(191,162,219);
-    text-align: center;
-    padding: 0.5vh;
-    margin: 0.5vh;
+    text-align: right;
+    padding: 1vh;
+    margin: 1vh;
     width: 10vw;
     height: 10vh;
     display:inline;
-    align-items: center;
+    align-items: right;
 
 }
 
