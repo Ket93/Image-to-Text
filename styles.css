@@ -18,6 +18,21 @@ h1{
     align-items: center;
 }
 
+#returnText{
+    background-color: rgb(244, 234, 250);
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+#seperate{
+    height: 2.5vh;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+
 
 form{
     display: flex;
@@ -62,4 +77,10 @@ img{
 #urlInput{
     margin-right: 2vw;
     margin-left: 2vw;
+}
+
+#textLabel, #languageLabel{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
