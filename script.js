@@ -12,15 +12,12 @@ let requestOptions = {
 };
 
 form.addEventListener("submit", async function (e) {
-    console.log("SDF");
-
     e.preventDefault();
     const URL = form.elements.query.value;
-    await fetch(`https://api.promptapi.com/image_to_text/url?url=${URL}`, requestOptions)
-        .then(response => response.json())
+    axios.get(`https://api.promptapi.com/image_to_text/url?url=${URL}`, { headers: { "apikey": "FD00cuR4jklrGZnhXOHcn4GDFBlkhcJ9" } })
         .then(textData => {
-            text.innerText = textData.all_text;
-            strLang = textData.lang.toUpperCase()
+            text.innerText = textData.data.all_text;
+            strLang = textData.data.lang.toUpperCase()
             language.innerText = strLang;
         })
         .catch(error => console.log('error', error));
