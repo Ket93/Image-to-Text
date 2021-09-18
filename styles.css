@@ -5,6 +5,7 @@
     padding:0;
     font-family:'Kumbh Sans',sans-serif;
     scroll-behavior: smooth;
+    color: rgb(191,162,219);
 }
 
 h1{
@@ -12,6 +13,6 @@ h1{
     padding: 10%;
     background-color:rgb(240,217,255);
     text-align: center;
-    width: 10%;
     height: 10%;
+    width:100%;
 }
