@@ -56,3 +56,8 @@ img{
     justify-content: left;
     align-items: left;
 }
+
+#urlInput{
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
