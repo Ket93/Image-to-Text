@@ -1,0 +1,24 @@
+{
+  "name": "image-to-text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "axois": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ket93/Image-to-Text.git"
+  },
+  "author": "Kevin Cui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ket93/Image-to-Text/issues"
+  },
+  "homepage": "https://github.com/Ket93/Image-to-Text#readme"
+}
