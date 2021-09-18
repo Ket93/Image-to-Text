@@ -10,7 +10,6 @@
 
 h1{
     color:rgb(25, 11, 39);
-    padding: 10vh;
     background-color:rgb(191,162,219);
     text-align: center;
     height: 10vh;
@@ -45,4 +44,15 @@ button{
     border-width: 0.75vh;
     border-color: rgb(25, 11, 39);
     border-radius: 1vh;
+}
+
+img{
+    padding: 0.5vh;
+    margin: 0.5vh;
+    width: 10vw;
+    height: 10vh;
+    background-color:rgb(191,162,219);
+    display: flex;
+    justify-content: left;
+    align-items: left;
 }
