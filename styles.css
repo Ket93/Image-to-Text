@@ -16,6 +16,7 @@ h1{
     width:100%;
 }
 
+
 form{
     display: flex;
     justify-content: center;
@@ -37,7 +38,6 @@ input{
 button{
     padding: 2vh;
     margin: 2vh;
-    height: 2vh;
     justify-content: center;
     align-items: center;
     line-height:0.5vh;
