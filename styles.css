@@ -5,14 +5,44 @@
     padding:0;
     font-family:'Kumbh Sans',sans-serif;
     scroll-behavior: smooth;
-    color: rgb(191,162,219);
+    background-color: rgb(244, 234, 250);
 }
 
 h1{
-    color:rgb(127,124,130);
-    padding: 10%;
-    background-color:rgb(240,217,255);
+    color:rgb(25, 11, 39);
+    padding: 10vh;
+    background-color:rgb(191,162,219);
     text-align: center;
-    height: 10%;
+    height: 10vh;
     width:100%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+input{
+    padding: 5vh;
+    margin: 5vh;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    border-width: 1vh;
+    border-color: rgb(25, 11, 39);
+    border-radius: 2vh;
+}
+
+button{
+    padding: 2vh;
+    margin: 2vh;
+    height: 2vh;
+    justify-content: center;
+    align-items: center;
+    line-height:0.5vh;
+    border-width: 0.75vh;
+    border-color: rgb(25, 11, 39);
+    border-radius: 1vh;
 }
