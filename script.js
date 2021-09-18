@@ -1,6 +1,6 @@
 const form = document.querySelector("#picURL");
 const text = document.querySelector("#returnText");
-const language = document.querySelector("#language");
+const language = document.querySelector("#returnLanguage");
 
 let myHeaders = new Headers();
 myHeaders.append("apikey", "FD00cuR4jklrGZnhXOHcn4GDFBlkhcJ9");
@@ -12,6 +12,8 @@ let requestOptions = {
 };
 
 form.addEventListener("submit", async function (e) {
+    console.log("SDF");
+
     e.preventDefault();
     const URL = form.elements.query.value;
     await fetch(`https://api.promptapi.com/image_to_text/url?url=${URL}`, requestOptions)
@@ -25,15 +27,4 @@ form.addEventListener("submit", async function (e) {
 
     form.elements.query.value = "";
 })
-
-const makeText = (response) => {
-    console.log(response);
-    const language = document.createElement("p");
-    const returnText = document.createElement("p");
-    language.body = response.lang
-    returnText.body = response.all_text
-
-    document.body.append(language);
-    document.body.append(returnText);
-}
 

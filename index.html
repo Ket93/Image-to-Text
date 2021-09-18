@@ -13,30 +13,42 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carattere&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Image to Text</title>
 </head>
 
 <body>
     <div class="titleBar">
-    <img src="WLogo.png">
-    <h1>ImText</h1>
+        <img src="WLogo.png">
+        <h1>ImText</h1>
+    </div>
+
+    <div id="seperate"></div>
+    <div>
+        <h2 id="quote">
+            "A picture is worth a thousand words"
+        </h2>
     </div>
     <form id="picURL" action="">
-        <label for="urlInput">Enter the URL of your image here: </label>
+        <!--<label for="urlInput">Enter the URL of your image here: </label>-->
         <input id="urlInput" type="text" placeholder="Enter Image URL" name="query">
-        <button type="button" class="btn btn-success btn-lg">Search</button>
+        <button type="submit" class="btn btn-success btn-lg">Submit</button>
     </form>
 
+    <div style="height: 15vh"></div>
     <h3 id="textLabel"><b>Text:</b></h3>
     <div id="seperate"></div>
+
     <p id="returnText"></p>
 
     <div id="seperate"></div>
     <h3 id="languageLabel"><b>Language:</b></h3>
     <div id="seperate"></div>
 
-    <p id="language"></p>
+    <p id="returnLanguage"></p>
 
 
 

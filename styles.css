@@ -25,15 +25,25 @@ h1{
 
 }
 
-#returnText{
+#returnText, #returnLanguage{
     background-color: rgb(244, 234, 250);
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    padding-left: 15vw;
+}
+
+#seperate{
+    height: 3.5vh;
     margin: 0px;
     border: 0px;
     padding: 0px;
 }
 
-#seperate{
-    height: 2.5vh;
+#quote{
+    font-family: 'Carattere', cursive;
+    font-size: 25px;
+    text-align: center;
     margin: 0px;
     border: 0px;
     padding: 0px;
@@ -45,7 +55,8 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 10vh;
+    padding-top: 10vh;
 }
 
 input{
@@ -90,4 +101,5 @@ img{
     margin: 0px;
     border: 0px;
     padding: 0px;
+    padding-left: 10vw;
 }
