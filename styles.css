@@ -8,24 +8,26 @@
     background-color: rgb(244, 234, 250);
 }
 
-.titleBar{
-    background-color:rgb(191,162,219);
-    display: flex;
-}
 
-h1{
+#title{
     font-family: 'Montserrat', sans-serif;
     color:rgb(25, 11, 39);
     background-color:rgb(191,162,219);
-    text-align: right;
-    padding: 1vh;
-    margin: 1vh;
+    font-size: 3em;
     width: 10vw;
+    margin: auto;
     height: 10vh;
-    display:inline;
-    align-items: right;
-    padding-left: 25vw;
+    padding-right: 10vw;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.titleBar{
+    background-color:rgb(191,162,219);
+    text-align: center;
+    position: relative;
+    display: flex;
 }
 
 #returnText, #returnLanguage{
@@ -95,7 +97,7 @@ button{
     border-radius: 1vh;
 }
 
-.logo{
+#logo{
     padding: 0.5vh;
     margin: 0.5vh;
     width: 10vw;
