@@ -10,6 +10,7 @@
 
 .titleBar{
     background-color:rgb(191,162,219);
+    display: flex;
 }
 
 h1{
@@ -23,6 +24,7 @@ h1{
     height: 10vh;
     display:inline;
     align-items: right;
+    padding-left: 25vw;
 
 }
 
