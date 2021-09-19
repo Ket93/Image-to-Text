@@ -93,7 +93,7 @@ button{
     border-radius: 1vh;
 }
 
-img{
+.logo{
     padding: 0.5vh;
     margin: 0.5vh;
     width: 10vw;
@@ -102,6 +102,13 @@ img{
     display: inline;
     justify-content: left;
     align-items: left;
+}
+
+.example{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh
 }
 
 #urlInput{
@@ -115,4 +122,9 @@ img{
     padding: 0px;
     padding-left: 10vw;
     font-family: 'Montserrat', sans-serif;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 1.5vh;
 }
